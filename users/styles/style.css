@@ -1,0 +1,117 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+body{
+    background-color: rgb(216, 239, 247);
+}
+
+body{
+    background-image:url(/users/img/banner2.jpg);
+    width: 800px;
+    height: 600px;
+}
+/*h1*/
+.display-1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+    padding-top: 2rem;
+    color:aliceblue;
+    text-decoration: underline;
+    -webkit-text-stroke: 1px #282828;
+	text-shadow: 0px 4px 4px #282828;
+}
+
+/*main h2*/
+.display-2{
+    font-size: 40px;
+    margin:auto;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    font-style: italic;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bold;
+    color: aliceblue;
+    text-decoration: rgb(183, 236, 243) overline underline;
+    -webkit-text-stroke: 1px #282828;
+	text-shadow: 0px 4px 4px #fcf8f8;
+    
+}
+/*labels*/
+label{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    color:rgb(246, 248, 250);
+    -webkit-text-stroke: 1px #0c0000;
+	text-shadow: 0px 4px 4px #fffcfc;
+    font-size: 25px;
+}
+
+#txtEmail ,
+#txtPassword ,
+#txtFirst ,
+#txtLast ,
+#txtAge ,
+#txtAddress,
+#txtPhone,
+#selPayment,
+#txtColor {
+    margin:auto;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: rgb(172, 248, 248);
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #282828;
+	text-shadow: 0px 4px 4px #fffcfc;
+    
+}
+
+#selPayment{
+    cursor: pointer;
+}
+
+#txtColor{
+    padding: 6px 3px;
+    cursor: pointer;
+}
+
+.labels{
+    padding-left: 2rem;
+}
+
+#btnRegister{
+    margin-bottom: 2rem;
+    margin-left: 12rem;
+    border-radius: 20px;
+    background-color: aqua;
+    color:black;
+    border: 3px solid black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    -webkit-text-stroke: 1px #282828;
+	text-shadow: 0px 4px 4px #fffcfc;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+
+#btnRegister:hover{
+    background-color: #eee8b6; /* Green */
+  color: rgb(252, 167, 9);
+}
+/*table*/
+
+.table {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 1em;
+    background: #ddd;
+    border-bottom: 2px solid white; 
+}
