@@ -25,7 +25,7 @@
     </div>
         <main>
             <h2 class="display-2">Register a user:</h2>
-            <div class="labels">
+            <div class="labels" id="label">
                 <!--email,password,first name, last name, age,address,numner,payment,color-->
                 <div>
                     <label>Email</label>
@@ -68,11 +68,13 @@
                     <input type="color" id="txtColor">
                 </div>
                 <button id="btnRegister" class="btn btn-primary">Register</button>
+                <p>
+                    <input id="button2" type="button" value="Click to clear "/></p>
             </div>
         </main>
         
-            <table class="table"  id="myTable">
-            <th>
+            <table class="table"  >
+            <tr>
                 <th class="table-primary">Email</th>
                 <th class="table-secondary">Password</th>
                 <th class="table-success">First Name</th>
@@ -83,7 +85,7 @@
                 <th class="table-danger">Payment</th>
                 <th class="table-light">Color</th>
 
-            </th>
+            </tr>
             
 
             <tr>
@@ -99,8 +101,8 @@
             </tr>
 
             <!-- On cells (`th` or `th`) -->
-            <tbody class="tbody">
-                <td>
+            <tbody class="tbody" id="myTable">
+                <tr>
                     <td class="table-primary"></td>
                     <td class="table-secondary"></td>
                     <td class="table-success"></td>
@@ -110,12 +112,15 @@
                     <td class="table-light"></td>
                     <td class="table-danger"></td>
                     <td class="table-light"></td>
-                </td>
+                </tr>
             </tbody>
             
             </table>
+            <p>
+                <input id="button1" type="button" value="Click to remove all rows except first one"/></p>
         
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="/users/script/storeManager.js"></script>
         <script src="/users/script/register.js"></script>
 </body>
 </html>

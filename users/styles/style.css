@@ -63,10 +63,11 @@ label{
     border-radius: 20px;
     margin-top: 10px;
     background-color: rgb(172, 248, 248);
-    font-family: 'Shadows Into Light', cursive;
+    
     font-weight: bold;
-    -webkit-text-stroke: 1px #282828;
+    -webkit-text-stroke: 1px #f51230f3;
 	text-shadow: 0px 4px 4px #fffcfc;
+    
     
 }
 
@@ -114,4 +115,47 @@ th, td {
     padding: 1em;
     background: #ddd;
     border-bottom: 2px solid white; 
+}
+
+.alert-error{
+    background-color: rgb(241, 18, 18)!important;
+}
+
+#button1{
+    margin-bottom: 2rem;
+    margin-left: 12rem;
+    border-radius: 20px;
+    background-color: aqua;
+    color:black;
+    border: 3px solid black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    -webkit-text-stroke: 1px #282828;
+	text-shadow: 0px 4px 4px #fffcfc;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+
+#button1:hover{
+    background-color: #eee8b6; /* Green */
+    color: rgb(252, 167, 9);
+}
+
+#myTable .table-secondary {
+     -webkit-text-security: disc; /* Default */ 
+}
+
+#button2{
+    margin-bottom: 2rem;
+    margin-left: 12rem;
+    border-radius: 20px;
+    background-color: aqua;
+    color:black;
+    border: 3px solid black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    -webkit-text-stroke: 1px #282828;
+	text-shadow: 0px 4px 4px #fffcfc;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
 }
