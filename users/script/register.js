@@ -86,7 +86,7 @@ function init() {
   $("#btnRegister").click(registerUser);
 }
 window.onload = init;
-
+//register user to table//
 $(document).ready(function () {
   $("#btnRegister").click(function () {
     $("#myTable").append(`
@@ -103,13 +103,13 @@ $(document).ready(function () {
         </tr>`);
   });
 });
-
+//clear table except first entry//
 $(document).ready(function () {
   $("#button1").click(function () {
     $("#myTable").find("tr:gt(1)").remove();
   });
 });
-
+//clear register fields//
 $(document).ready(function () {
   $("#button2").click(function () {
     $("#txtEmail").val("");
