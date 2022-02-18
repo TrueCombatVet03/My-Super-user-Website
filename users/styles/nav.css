@@ -46,10 +46,14 @@ body {
         
     }
 }
+img.logo{
+    cursor: pointer;
+}
 
 .primary-navigation a{
     text-decoration: none;
     color:antiquewhite;
+    padding-right: 2rem;
 }
 
 @media (max-width: 35em){

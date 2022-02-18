@@ -9,7 +9,7 @@ body{
 }
 
 body{
-    background-image:url(/users/img/banner2.jpg);
+    background-image:url(/users/img/home.jpg);
     width: 800px;
     height: 600px;
 }
@@ -141,7 +141,7 @@ th, td {
     color: rgb(252, 167, 9);
 }
 
-#myTable .table-secondary {
+#userList .table-secondary {
      -webkit-text-security: disc; /* Default */ 
 }
 

@@ -22,19 +22,24 @@
 
 <header id="primary-header" class="primary-header flex">
     <img src="users/img/easywebes-png-500x500.png" class="logo">
+    <div>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <span class="sr-only"> </span>
+        </button>
+    </div>
     <nav>
         <ul id="primary-navigation" class="primary-navigation flex">
             <li class="active">
                 <a href="home.html">
-                    <span aria-hidden="true">00</span>Home
+                    <span aria-hidden="true"></span>Home
                 </a>
             <li>
                 <a href="register.html">
-                    <span aria-hidden="true">01</span>Register
+                    <span aria-hidden="true"></span>Register
                 </a>
             <li>
                 <a href="index.html">
-                    <span aria-hidden="true">02</span>Index
+                    <span aria-hidden="true"></span>Index
                 </a>
         </ul>
     </nav>
@@ -94,54 +99,12 @@
             </div>
         </main>
         
-            <table class="table"  >
-            <tr>
-                <th class="table-primary">Email</th>
-                <th class="table-secondary">Password</th>
-                <th class="table-success">First Name</th>
-                <th class="table-danger">Last Name</th>
-                <th class="table-warning">Age</th>
-                <th class="table-info">Address</th>
-                <th class="table-light">Phone</th>
-                <th class="table-danger">Payment</th>
-                <th class="table-light">Color</th>
-
-            </tr>
             
-
-            <tr>
-                <tr class="table-primary"></tr>
-                <tr class="table-secondary">...</tr>
-                <tr class="table-success">...</tr>
-                <tr class="table-danger">...</tr>
-                <tr class="table-warning">...</tr>
-                <tr class="table-info">...</tr>
-                <tr class="table-light">...</tr>
-                <tr class="table-danger">...</tr>
-                <tr class="table-light">...</tr>
-            </tr>
-
-            <!-- On cells (`th` or `th`) -->
-            <tbody class="tbody" id="myTable">
-                <tr>
-                    <td class="table-primary"></td>
-                    <td class="table-secondary"></td>
-                    <td class="table-success"></td>
-                    <td class="table-danger"></td>
-                    <td class="table-warning"></td>
-                    <td class="table-info"></td>
-                    <td class="table-light"></td>
-                    <td class="table-danger"></td>
-                    <td class="table-light"></td>
-                </tr>
-            </tbody>
             
-            </table>
-            <p>
-                <input id="button1" type="button" value="Click to remove all rows except first one"/></p>
         
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="/users/script/storeManager.js"></script>
         <script src="/users/script/register.js"></script>
+        <script src="/users/script/nav.js" ></script>
 </body>
 </html>

@@ -87,26 +87,11 @@ function init() {
 }
 window.onload = init;
 //register user to table//
-$(document).ready(function () {
-  $("#btnRegister").click(function () {
-    $("#myTable").append(`
-        <tr>
-            <td class="table-primary">${$("#txtEmail").val()}</td>
-            <td class="table-secondary" >${$("#txtPassword").val()}</td>
-            <td class="table-success" >${$("#txtFirst").val()}</td>
-            <td class="table-danger">${$("#txtLast").val()}</td>
-            <td class="table-warning">${$("#txtAge").val()}</td>
-            <td class="table-info" >${$("#txtAddress").val()}</td>
-            <td class="table-light" >${$("#txtPhone").val()}</td>
-            <td class="table-danger" >${$("#txtselPayment").val()}</td>
-            <td class="table-light" >${$("#txtColor").val()}</td>
-        </tr>`);
-  });
-});
+
 //clear table except first entry//
 $(document).ready(function () {
   $("#button1").click(function () {
-    $("#myTable").find("tr:gt(1)").remove();
+    $("#userList").find("tr:gt(1)").remove();
   });
 });
 //clear register fields//
