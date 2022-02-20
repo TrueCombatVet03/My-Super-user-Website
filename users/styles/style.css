@@ -159,3 +159,38 @@ th, td {
     font-family: 'Shadows Into Light', cursive;
     font-size: 20px;
 }
+
+.alert-error{
+    border: 1px solid red;
+    background-color: pink;
+}
+.hide{
+    display:none;
+}
+
+#txtUsername{
+    margin:auto;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: rgb(172, 248, 248);
+    
+    font-weight: bold;
+    -webkit-text-stroke: 1px #f51230f3;
+	text-shadow: 0px 4px 4px #fffcfc;
+}
+
+#btnLogin{
+
+  margin-bottom: 2rem;
+    margin-left: 12rem;
+    border-radius: 20px;
+    background-color: aqua;
+    color:black;
+    border: 3px solid black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    -webkit-text-stroke: 1px #282828;
+	text-shadow: 0px 4px 4px #fffcfc;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
